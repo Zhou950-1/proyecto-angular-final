@@ -1,0 +1,13 @@
+<!-- App root template (clean) -->
+<style>
+  :host { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial; }
+  .app-main { min-height: calc(100vh - 120px); padding: 1rem; }
+</style>
+
+<app-header></app-header>
+
+<main class="app-main" role="main">
+  <router-outlet></router-outlet>
+</main>
+
+<app-footer></app-footer>
